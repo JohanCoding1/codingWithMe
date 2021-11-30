@@ -8,27 +8,28 @@
 import SwiftUI
 
 struct RecipeTabView: View {
+    
     var body: some View {
         
         TabView {
             
-            
-            Text("Tab 2, not main bla bla bla")
-                .tabItem {
-                    VStack {
-                        Image(systemName: "list.bullet")
-                        Text("Tab 2")
+            FeaturedTabView()
+                    .tabItem {
+                        VStack {
+                            Image(systemName: "list.bullet")
+                            Text("Tab 2")
+                        }
                     }
-                }
-            
-            ContentView()
-                .tabItem {
-                    VStack {
-                        Image(systemName: "star.fill")
-                        Text("List")
+                
+                ContentView()
+                    .tabItem {
+                        VStack {
+                            Image(systemName: "star.fill")
+                            Text("List")
+                        }
                     }
-                }
         }
+        .environmentObject(RecipeViewModel())
     }
 }
 

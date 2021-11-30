@@ -48,7 +48,7 @@ struct RecipeDetailView: View {
 
 struct RecipeDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        let recipeModel = RecipeModel()
+        let recipeModel = RecipeViewModel()
         RecipeDetailView(recipe: recipeModel.recipes[0])
     }
 }

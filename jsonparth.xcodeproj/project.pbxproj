@@ -16,6 +16,7 @@
 		5A13D162274CFFAE00976014 /* recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A13D161274CFFAE00976014 /* recipe.swift */; };
 		5A13D165274D002200976014 /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A13D164274D002200976014 /* recipes.json */; };
 		5A62CC4A2754D1A700BE1A0C /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A62CC492754D1A700BE1A0C /* RecipeTabView.swift */; };
+		5ABB113F2756336E00C6EC2C /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABB113E2756336E00C6EC2C /* FeaturedTabView.swift */; };
 		5ABD895C274DA3AD00CCD22A /* services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABD895B274DA3AD00CCD22A /* services.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		5A13D161274CFFAE00976014 /* recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipe.swift; sourceTree = "<group>"; };
 		5A13D164274D002200976014 /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
 		5A62CC492754D1A700BE1A0C /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
+		5ABB113E2756336E00C6EC2C /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
 		5ABD895B274DA3AD00CCD22A /* services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = services.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +99,7 @@
 				5A62CC492754D1A700BE1A0C /* RecipeTabView.swift */,
 				5A13D151274CFF4900976014 /* ContentView.swift */,
 				5A01EC74274E350C0028B4F0 /* RecipeDetailView.swift */,
+				5ABB113E2756336E00C6EC2C /* FeaturedTabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			files = (
 				5ABD895C274DA3AD00CCD22A /* services.swift in Sources */,
 				5A01EC75274E350C0028B4F0 /* RecipeDetailView.swift in Sources */,
+				5ABB113F2756336E00C6EC2C /* FeaturedTabView.swift in Sources */,
 				5A13D152274CFF4900976014 /* ContentView.swift in Sources */,
 				5A13D160274CFFA200976014 /* recipe-model.swift in Sources */,
 				5A13D150274CFF4900976014 /* jsonparthApp.swift in Sources */,
